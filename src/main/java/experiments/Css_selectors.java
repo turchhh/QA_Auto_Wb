@@ -37,17 +37,6 @@ public class Css_selectors {
         bookStore.click();
         pause(2);
         driver.navigate().back();
-
-
-
-
-
-
-
-
-
-
-
         pause(3);
         driver.quit();
     }
