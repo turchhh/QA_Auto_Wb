@@ -29,4 +29,9 @@ public class BasePage {
                 ("document.querySelector('footer')" +
                         ".style.display='none'");
     }
+
+    public boolean validateTextInElement(WebElement element,String text){
+        return element.getText().contains(text);
+
+    }
 }
